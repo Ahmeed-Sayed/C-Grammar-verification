@@ -5,7 +5,7 @@ We Defined in regex the name formula for the names of :
 - [x] Structures  : (Std_Return_s)
 - [x] Enumerations: (Std_Return_e)
 - [x] Types
-- [x] API Definitions 
+- [x] API Definitions (Functions)
 - ## Global :
 - [x] Struct      Variables
 - [x] Union       Variables 
