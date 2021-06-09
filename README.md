@@ -1,5 +1,5 @@
 # C Grammar Modification , An ANTLR Project.
-<p>Our Tasks Was to : Modify Code Standars In C  
+Our Tasks Was to : Modify Code Standars In C  
 					We Defined in regex the name formula for the names of : 
 					- Declarations : 
 						- [x] Structures  : (Std_Return_s)
@@ -18,7 +18,7 @@
 						- [x] Union       Variables
 						- [x] Enumeration Variables
 						- [x] Other       Variables
-</p>
+
 <p>Grammar Rules Were specified in a JSON File **"myJSON.JSON"** which was parsed using JSON File parsing library in Java</p>
 <p>Included in our project files **"t.expr"** , a file that contains some test cases,at least one test case for each rule we specified</p>
 <p>The logic of overridden visitors can be found in **Replace.java** </p>
