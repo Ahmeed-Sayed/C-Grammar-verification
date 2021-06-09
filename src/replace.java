@@ -43,7 +43,7 @@ public class replace extends gramBaseVisitor{
        }
 
 
-  /* @Override public Integer visitGlobaldeclaration(gramParser.GlobaldeclarationContext ctx) {
+   /*@Override public Integer visitGlobaldeclaration(gramParser.GlobaldeclarationContext ctx) {
 
         JSONParser parser = new JSONParser();
         String regex = null;
@@ -127,8 +127,8 @@ public class replace extends gramBaseVisitor{
 
 return 0;
     }
-*/
 
+*/
 
 
 
@@ -255,8 +255,7 @@ return 0;}
 
     }
 
-   /* @Override public Integer visitFunctionDefinition(gramParser.FunctionDefinitionContext ctx) {
-
+  /*  @Override public Integer visitFunctiondeclaration(gramParser.FunctiondeclarationContext ctx) { //not working with global
         JSONParser parser = new JSONParser();
         String regex = null;
 
@@ -264,8 +263,6 @@ return 0;}
             Object obj = parser.parse(new FileReader("myJSON.json"));
             JSONObject jsonObject = (JSONObject) obj;
             regex = (String) jsonObject.get("IDFun");
-
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -273,20 +270,20 @@ return 0;}
         } catch (ParseException e) {
             e.printStackTrace();
         }
-
-        String ID = ctx.declarator().directDeclarator().getText();
         int line = ctx.getStart().getLine();
+        String ID2 = ctx.functionDefinition().declarator().directDeclarator().getText();
         Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(ID);
+        Matcher matcher = pattern.matcher(ID2);
         boolean matchFound = matcher.find();
-        if (!matchFound) {
-            System.out.println(ID +"Function  Syntax not Correct at line: " + line);
-
+        if(!matchFound) {
+            System.out.println(ID2+" Function name Syntax not Correct at line: " + line);
         }
         return 0;
-    }*/
 
 
+    }
+
+*/
 
 
 
