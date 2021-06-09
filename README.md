@@ -12,7 +12,7 @@ We Defined in regex the name formula for the names of :
 - [x] Enumeration Variables
 - [x] Other       Variables
 - # Local 
-- [] Function    Parameters
+- [ ] Function    Parameters
 - [x] Struct      Variables
 - [x] Union       Variables
 - [x] Enumeration Variables
