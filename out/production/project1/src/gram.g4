@@ -401,7 +401,7 @@ blockItemList
     ;
 
 blockItem
-    :   statement #statment
+    :   statement   #statment
     |   declaration #localdeclaration
     ;
 
@@ -455,8 +455,8 @@ translationUnit
 
 externalDeclaration
     :   functionDefinition #functiondeclaration
-    |   declaration #globaldeclaration
-    |   ';' #semicolon
+    |   declaration        #globaldeclaration
+    |   ';'                #semicolon
     ;
 
 functionDefinition
