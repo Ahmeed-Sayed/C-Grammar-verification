@@ -12,7 +12,7 @@ Our Tasks Was to : Modify Code Standars In C
 - [x] Enumeration Variables
 - [x] Other       Variables
 - ## Local 
-- [ ] Function    Parameters
+- [x] Function    Parameters
 - [x] Struct      Variables
 - [x] Union       Variables
 - [x] Enumeration Variables
