@@ -1,17 +1,17 @@
 # C Grammar Modification , An ANTLR Project.
 Our Tasks Was to : Modify Code Standars In C  
 We Defined in regex the name formula for the names of : 
-- # Declarations : 
+- ## Declarations : 
 - [x] Structures  : (Std_Return_s)
 - [x] Enumerations: (Std_Return_e)
 - [x] Types
 - [x] API Definitions 
-- # Global :
+- ## Global :
 - [x] Struct      Variables
 - [x] Union       Variables 
 - [x] Enumeration Variables
 - [x] Other       Variables
-- # Local 
+- ## Local 
 - [ ] Function    Parameters
 - [x] Struct      Variables
 - [x] Union       Variables
