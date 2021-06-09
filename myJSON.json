@@ -1,0 +1,18 @@
+{  "IDStructUnion":"[A-Z].*_su",
+  "IDStructGB" :  "[A-Z].*_sgb",
+  "IDStructLC":   "[A-Z].*_slc",
+
+   "IDNormalLC":  "[A-z].*_nlc",
+  "IDNormalGB":  "[A-z].*_ngb",
+
+
+  "IDUnionGB" :  "[A-Z].*_ugb",
+  "IDUnionLC":   "[A-Z].*_ulc",
+
+  "IDEnum": "[A-Z].*_e",
+  "IDEnumGB" : "[A-Z].*_egb",
+  "IDEnumLC": "[A-Z].*_elc",
+
+  "IDFun": "[A-Z].*_f"
+
+}

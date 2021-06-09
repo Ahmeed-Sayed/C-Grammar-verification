@@ -1,0 +1,38 @@
+struct ds;
+
+union U_su;
+
+union un;
+
+void fg(){
+int type2;
+int Type2_nlc;
+
+struct x ds;
+struct x S_slc;
+
+enum x fg;
+enum x E_elc;
+
+union x kh;
+union x U_ulc;
+
+}
+
+
+void F_f();
+
+
+
+
+struct S_su d;
+
+struct S_su S_sgb;
+union H_su j ;
+
+union h K_ugb;
+
+
+
+int  type1;
+int Type_ngb;
