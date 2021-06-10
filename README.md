@@ -1,5 +1,5 @@
 # C Grammar Verification , An ANTLR Project.
-Our Tasks Was to : Modify Code Standars In C  
+Our Tasks Was to : Verify our Code Standars In C  
 #### We Defined in regex the name formula for the names of : 
 - ## Declarations : 
 - [x] Structures  : (Std_Return_s)
