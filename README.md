@@ -1,4 +1,4 @@
-# C Grammar Modification , An ANTLR Project.
+# C Grammar Verification , An ANTLR Project.
 Our Tasks Was to : Modify Code Standars In C  
 #### We Defined in regex the name formula for the names of : 
 - ## Declarations : 
